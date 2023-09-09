@@ -1,0 +1,1 @@
+	"DICT_7X7_250": cv2.aruco.DICT_7X7_250,

@@ -55,7 +55,7 @@ def main():
     arucoDict = cv2.aruco.Dictionary_get(ARUCO_DICT[aruco_type])
     arucoParams = cv2.aruco.DetectorParameters_create()
 
-    image_path = r"C:\Users\Dell\Desktop\innovation lab\ArucoMarkers\demo.png"
+    image_path = r"C:\Users\aishe\Desktop\Smart-Parking-System\arucoMarkers\DICT_5X5_250_1.png"
     img = cv2.imread(image_path)
 
     h, w, _ = img.shape
