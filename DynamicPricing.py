@@ -17,10 +17,9 @@ data = {
     'DynamicPrice': np.random.randint(10, 50, 100)
 }
 
-# Create a DataFrame from the synthetic data
+
 df = pd.DataFrame(data)
 
-# Split the data into features (X) and target variable (y)
 X = df[['DayOfWeek', 'TimeOfDay', 'IsSpecialDay', 'HistoricalReservations', 'Occupancy', 'TotalAvailableSpots', 'PercentageAvailableSpots', 'CustomerType', 'MembershipStatus']]
 y = df['DynamicPrice']
 
