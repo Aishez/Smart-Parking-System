@@ -16,7 +16,7 @@ if not CHECK_DIR:
 else:
     print(f'"{image_dir_path}" Directory already Exists.')
 
-criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 30, 0.001)
+criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 30, 0.001)        # termination criteria
 
 
 def detect_checker_board(image, grayImage, criteria, boardDimension):
@@ -48,8 +48,8 @@ while True:
         cv.LINE_AA,
     )
 
-    cv.imshow("frame", frame)
-    cv.imshow("copyFrame", copyFrame)
+    cv.imshow("frame", frame)                       # Checkerboard drawn
+    cv.imshow("copyFrame", copyFrame)               # Original copy of the frame
 
     key = cv.waitKey(1)
 

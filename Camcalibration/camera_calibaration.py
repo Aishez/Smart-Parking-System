@@ -78,8 +78,8 @@ print("loading data stored using numpy savez function\n \n \n")
 data = np.load(f"{calib_data_path}/MultiMatrix.npz")
 
 camMatrix = data["camMatrix"]
-distCof = data["distCoef"]
-rVector = data["rVector"]
-tVector = data["tVector"]
+distCof = data["distCoef"]                                              # Distortation cofficient
+rVector = data["rVector"]                                               # Rotation vector
+tVector = data["tVector"]                                               # Translation vector
 
 print("loaded calibration data successfully")
