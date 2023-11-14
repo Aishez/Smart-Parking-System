@@ -1,10 +1,60 @@
-Slot,Entry Time,Exit Time
-1,2023-10-04 17:00:19,2023-10-04 17:00:24
-1,2023-10-04 17:00:19,2023-10-04 17:00:34
-1,2023-10-04 17:00:19,2023-10-04 17:00:44
-1,2023-10-04 17:00:19,2023-10-04 17:00:44
-1,2023-10-04 17:00:19,2023-10-04 17:01:04
-1,2023-10-04 17:00:19,2023-10-04 17:01:04
-1,2023-10-04 17:01:08,2023-10-04 17:01:13
-1,2023-10-04 17:00:19,2023-10-04 17:01:04
-1,2023-10-04 17:01:08,2023-10-04 17:01:23
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,0
+2,Not Occupied,0
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Occupied,1
+2,Not Occupied,0
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Occupied,1
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,1
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,1
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Occupied,2
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,2
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,2
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,2
+2,Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
+Slot ID,Currently Occupied,Slot Counter
+1,Not Occupied,2
+2,Not Occupied,1
+3,Not Occupied,0
+4,Not Occupied,0
+5,Not Occupied,0
